@@ -1,7 +1,7 @@
 // Smooth scrolling for navigation links
 function scrollToSection(sectionId) {
     const element = document.getElementById(sectionId);
-    if (element) {
+    if (element) (
         element.scrollIntoView({
             behavior: 'smooth',
             block: 'start'
